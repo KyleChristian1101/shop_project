@@ -16,8 +16,9 @@ import { SidenavComponent } from './component/sidenav/sidenav.component';
 import { ScreenComponent } from './component/screen/screen.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+
 @NgModule({
-  declarations: [
+  declarations: [ 
     AppComponent,
     
   ],
@@ -28,6 +29,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     LayoutModule,
     RegistrationModule,
     NgbModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

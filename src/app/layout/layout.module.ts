@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 import { TopnavComponent } from '../component/topnav/topnav.component';
 import { SidenavComponent } from '../component/sidenav/sidenav.component';
 import { ScreenComponent } from '../component/screen/screen.component';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -19,6 +19,7 @@ import { ScreenComponent } from '../component/screen/screen.component';
   imports: [
     CommonModule,
     LayoutRoutingModule,
+    FontAwesomeModule,
     
   ]
   

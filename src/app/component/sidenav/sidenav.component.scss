@@ -1,0 +1,30 @@
+.logo{
+    color: #C5D8D1;
+    padding: 2em 2em;
+    border-bottom: 1px solid #06BCC1;
+    border-top: 1px solid #06BCC1;
+    margin-top: 1em;
+}
+
+.side-navlinks{
+    margin-top: 1em;
+}
+.nav-links{
+    color: #C5D8D1;
+    display: flex;
+    gap: .5em;
+    align-content: center;
+    margin: 1em 0;
+    padding: .5em 1em;
+    border-radius: .5em;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+
+    cursor: pointer;
+
+    &:hover{
+        background-color: #06BCC1;
+        color: black;
+    }
+}

@@ -1,1 +1,29 @@
-<p>sidenav works!</p>
+<div class="container d-flex flex-column" style="height: 100%; min-height: 100vh;">
+    <div class="logo">
+        <h2>Kyle's Shop</h2>
+    </div>
+    <div class="side-navlinks" style="flex: 1;">
+        <div class="nav-links">
+            <fa-icon [icon]="faDashboard"></fa-icon>
+            <h5 routerLink="/dashboard">Dashboard</h5>
+        </div>
+        <div class="nav-links">
+            <fa-icon [icon]="faUser"></fa-icon>
+            <h5 routerLink="/user-management">User-Management</h5>
+        </div>
+        <div class="nav-links">
+            <fa-icon [icon]="faShop"></fa-icon>
+            <h5 routerLink="/product">Product</h5>
+        </div>
+    </div>
+    <footer style="margin-top: auto; margin-bottom: 2em;">
+        <div class="nav-links">
+            <fa-icon [icon]="faShop"></fa-icon>
+            <h5 routerLink="settings">Settings</h5>
+        </div>
+        <div class="nav-links">
+            <fa-icon [icon]="faShop"></fa-icon>
+            <h5 routerLink="/registration">Registration</h5>
+        </div>
+    </footer>
+</div>
